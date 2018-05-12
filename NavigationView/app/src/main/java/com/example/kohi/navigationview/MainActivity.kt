@@ -35,13 +35,15 @@ class MainActivity : AppCompatActivity() {
                 R.id.menu_4 -> startActivity(Intent(this, SomethingActivity::class.java))
             }
             if(checkedItem != null) checkedItem?.isChecked = false
-            it.isChecked = true
             checkedItem = it
+            it.isChecked = true
+            drawerLayout.closeDrawers()
             true
         }
     }
 
     // do something
-    private fun trySomething() {}
+    private fun trySomething() {
+    }
 
 }
