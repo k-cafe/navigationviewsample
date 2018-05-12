@@ -28,11 +28,9 @@ class MainActivity : AppCompatActivity() {
 
         navigationView.setNavigationItemSelectedListener{
             when(it.itemId){
-                // call fragment
                 R.id.menu_home -> trySomething()
                 R.id.menu_1 -> trySomething()
                 R.id.menu_2 -> trySomething()
-                // call activity
                 R.id.menu_3 -> startActivity(Intent(this, SomethingActivity::class.java))
                 R.id.menu_4 -> startActivity(Intent(this, SomethingActivity::class.java))
             }
@@ -43,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // call fragment
+    // do something
     private fun trySomething() {}
 
 }
