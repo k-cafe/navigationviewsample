@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NaviagationView</string>
+    <string name="app_name">NavigationView</string>
+    <string name="home">ホーム</string>
+    <string name="page1">ページ1</string>
+    <string name="page2">ページ2</string>
+    <string name="others">その他</string>
+    <string name="page3">ページ3</string>
+    <string name="page4">ページ4</string>
 </resources>

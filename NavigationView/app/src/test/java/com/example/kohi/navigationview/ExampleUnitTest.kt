@@ -1,4 +1,4 @@
-package com.example.kohi.naviagationview
+package com.example.kohi.navigationview
 
 import org.junit.Test
 
